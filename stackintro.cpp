@@ -14,7 +14,7 @@ public:
         arr = new int[size];      //dynam array creation
     }
     void push(int element) {
-        if(size - top > 1) {
+        if(size - top > 1) {     //for size 1 i.e 2>1 will execute
             top++;
             arr[top] = element;
         }
