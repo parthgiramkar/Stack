@@ -12,6 +12,9 @@ void print(stack<int> stack) {
     }
 
 }
+
+
+
 void insertatbottom(stack<int> &stack,int f) {
 //base case
     if(stack.empty()) {
